@@ -16,9 +16,7 @@ private:
     int* getBarChart(unsigned int pos, unsigned int count, int numThreads);
     void getMax(unsigned int countIgnoredPixels, int& max, unsigned int pos, unsigned int count, int* brightPixels);
     void getMin(unsigned int countIgnoredPixels, int& min, unsigned int pos, unsigned int count, int* brightPixels);
-
 };
-
 
 bool Image::readImage(FILE* file) {
 
